@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Trell-Project LAtest</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/css/3-Columns-Info-Icons.css">
+    <link rel="stylesheet" href="assets/css/Animated-Pretty-Product-List-v12.css">
+    <link rel="stylesheet" href="assets/css/Bold-BS4-CSS-Image-Slider.css">
+    <link rel="stylesheet" href="assets/css/Card-Carousel-1.css">
+    <link rel="stylesheet" href="assets/css/Card-Carousel.css">
+    <link rel="stylesheet" href="assets/css/Customizable-Carousel-swipe-enabled.css">
+    <link rel="stylesheet" href="assets/css/Dynamically-Queue-Videos.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/gift-product-long.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="assets/css/Media-Slider-Bootstrap-3-1.css">
+    <link rel="stylesheet" href="assets/css/Media-Slider-Bootstrap-3.css">
+    <link rel="stylesheet" href="assets/css/ml-video-1.css">
+    <link rel="stylesheet" href="assets/css/ml-video.css">
+    <link rel="stylesheet" href="assets/css/MUSA_carousel-product-cart-slider-1.css">
+    <link rel="stylesheet" href="assets/css/MUSA_carousel-product-cart-slider.css">
+    <link rel="stylesheet" href="assets/css/Product-Viewer-1.css">
+    <link rel="stylesheet" href="assets/css/Pulse-Button-on-Hover-1.css">
+    <link rel="stylesheet" href="assets/css/Pulse-Button-on-Hover.css">
+    <link rel="stylesheet" href="assets/css/Review-rating-Star-Review-Button-1.css">
+    <link rel="stylesheet" href="assets/css/Review-rating-Star-Review-Button.css">
+    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
+    <link rel="stylesheet" href="assets/css/Slider_Carousel_webalgustocom-1.css">
+    <link rel="stylesheet" href="assets/css/Slider_Carousel_webalgustocom-2.css">
+    <link rel="stylesheet" href="assets/css/Slider_Carousel_webalgustocom.css">
+    <link rel="stylesheet" href="assets/css/Testimonial-Slider-9-1.css">
+    <link rel="stylesheet" href="assets/css/Testimonial-Slider-9.css">
+    <link rel="stylesheet" href="assets/css/Video-Responsive.css">
+</head>
+
+<body>
+    <div class="jumbotron">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Upload video</h4>
+                <h6 class="text-muted card-subtitle mb-2"></h6>
+                <form><input class="form-control-file" type="file" id="inputFileToLoad">
+                    <p>File supported .mp4</p>
+                    <p>Title of the Video</p><input class="form-control" type="text">
+                    <p>Short Description of the Video</p>
+                    <div class="mt-4">
+                        <div class="jumbotron" id="loading"><script type='text/javascript'>"use strict"
+function main()
+{
+    var inputFileToLoad = document.getElementById("inputFileToLoad");
+    var buttonLoadFile = document.createElement("button");
+    buttonLoadFile.onclick = loadImageFileAsURL;
+    buttonLoadFile.setAttribute("class", "btn btn-success mr-3");
+    buttonLoadFile.textContent = "Load Selected File";
+    var buttonUnLoadFile = document.createElement("button");
+    buttonUnLoadFile.onclick = unloadFileAsURL;
+    buttonUnLoadFile.setAttribute("class", "btn btn-success mr-3");
+    buttonUnLoadFile.textContent = "UnLoad Selected File";
+    document.getElementById("loading").appendChild(buttonLoadFile);
+    document.getElementById("loading").appendChild(buttonUnLoadFile);
+}
+var imageLoaded = null;
+function unloadFileAsURL()
+{
+        if(imageLoaded != null)
+                    {
+                        document.getElementById("loading").removeChild(imageLoaded);
+                        imageLoaded = null;
+                    }
+}
+    
+function loadImageFileAsURL()
+{
+    var filesSelected = document.getElementById("inputFileToLoad").files;
+    if (filesSelected.length > 0)
+    {
+        var fileToLoad = filesSelected[0];
+
+        if (fileToLoad.type.match("image.*"))
+        {
+            var fileReader = new FileReader();
+            fileReader.onload = function(fileLoadedEvent) 
+            {
+                unloadFileAsURL();
+                imageLoaded = document.createElement("img");
+                imageLoaded.setAttribute("class", "img mt-5");
+                imageLoaded.style = "width:100%";
+                imageLoaded.src = fileLoadedEvent.target.result;
+                document.getElementById("loading").appendChild(imageLoaded);
+                    
+            };
+            fileReader.readAsDataURL(fileToLoad);
+        }
+    }
+}
+
+main();
+
+</script></div><button class="btn btn-success btn-lg" type="submit">Upload</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Customizable-Carousel-swipe-enabled.js"></script>
+    <script src="assets/js/Animated-Pretty-Product-List-v12.js"></script>
+    <script src="assets/js/Card-Carousel.js"></script>
+    <script src="assets/js/Dynamically-Queue-Videos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="assets/js/Media-Slider-Bootstrap-3.js"></script>
+    <script src="assets/js/ml-video.js"></script>
+    <script src="assets/js/new-age.js"></script>
+    <script src="assets/js/Product-Viewer-1-1.js"></script>
+    <script src="assets/js/Product-Viewer-1.js"></script>
+    <script src="assets/js/Review-rating-Star-Review-Button.js"></script>
+    <script src="assets/js/Simple-Slider.js"></script>
+    <script src="assets/js/Slider_Carousel_webalgustocom.js"></script>
+    <script src="assets/js/Testimonial-Slider-9.js"></script>
+</body>
+
+</html>
